@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "strict": false,
+    "jsx": "react-jsx",
+    "types": ["node", "jest"]
+  },
+  "include": [".", "./jest-setup.ts"],
+  "exclude": ["./type", "./e2e"]
+}

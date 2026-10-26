@@ -1,0 +1,17 @@
+node_modules
+dist
+*.log
+*.tgz
+.env
+.next
+.DS_Store
+.idea
+.vscode
+examples/**/yarn.lock
+package-lock.json
+*.tsbuildinfo
+coverage
+test/e2e/playwright-report
+test/e2e/test-results
+test/e2e/site/next-env.d.ts
+
